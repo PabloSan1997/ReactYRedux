@@ -3,3 +3,7 @@ utilizar andt
 npm install antd
 iconos
 npm install --save @ant-design/icons
+
+
+Redux
+npm install redux react-redux 
