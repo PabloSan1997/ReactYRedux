@@ -4,6 +4,7 @@ Este proyecto fue realizado para la clase de Curso profecional de Reactjs y Redu
 
 ## Inicializar
 - Descarga o clona los archivos y coloca los siguientes comandos en la consola
+
 `npm install`
 
 `npm run dev`
