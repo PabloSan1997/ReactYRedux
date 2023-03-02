@@ -9,5 +9,12 @@ import axios from "axios"
         return [];
     }
 }
-
-export{getPokemons}
+async function getPokemonsDetails(elemento){
+    try {
+        const mas = await axios.get(elemento.url);
+        return await mas.data;
+    } catch (error) {
+        console.log('Error al leer datos especificos');
+    }
+}
+export{getPokemons, getPokemonsDetails}
