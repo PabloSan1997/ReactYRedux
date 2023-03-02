@@ -7,3 +7,6 @@ npm install --save @ant-design/icons
 
 Redux
 npm install redux react-redux 
+
+redux-thunk
+npm install redux-thunk
