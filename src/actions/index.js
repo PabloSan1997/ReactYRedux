@@ -1,5 +1,5 @@
 import { getPokemonsDetails } from "../API";
-import { SET_LOADING, SET_POKEMONS } from "./types";
+import { SET_FAVORITE, SET_LOADING, SET_POKEMONS } from "./types";
 
 const setPokemonsActions = (payload) => ({
   type: SET_POKEMONS,
@@ -7,6 +7,10 @@ const setPokemonsActions = (payload) => ({
 });
 const setLoading=(payload)=>({
   type:SET_LOADING,
+  payload
+});
+const setFavorite=(payload)=>({
+  type:SET_FAVORITE,
   payload
 });
 const getPokemonsWithDetails =
@@ -17,4 +21,4 @@ const getPokemonsWithDetails =
       ));
       dispatch(setPokemonsActions(datosDetalles));
   };
-export { setPokemonsActions, getPokemonsWithDetails, setLoading };
+export { setPokemonsActions, getPokemonsWithDetails, setLoading , setFavorite};

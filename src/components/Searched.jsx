@@ -4,7 +4,7 @@ import { Input } from "antd";
 
 function Searched() {
   return (
-    <Input.Search placeholder="Buscar..." style={{marginButton:10}}/>
+    <Input.Search placeholder="Buscar..." style={{marginButton:20}}/>
   )
 }
 
